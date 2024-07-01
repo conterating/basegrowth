@@ -24,11 +24,42 @@
 }
 
 .header-text {
-  margin-left: 20px;
+  margin-left: 7%;
+  font-size: 26px;
 }
 
 li a {
   text-decoration: none;
   color: black;
   font-size: 14px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  background-color: #e2edcb;
+}
+
+.hero-content {
+  margin: 10px 7%;
+}
+
+.hero-description {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+
+.waitlist {
+  background-color: #d2e3d0;
+  padding: 36px;
+  margin-right: 32px;
+}
+
+.waitlist-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
