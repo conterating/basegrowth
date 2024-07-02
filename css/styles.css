@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 .navbar {
@@ -106,24 +107,20 @@ li a {
 }
 
 .pain-points {
-  text-align: center;
   font-family: "Open Sans", sans-serif;
   background-color: #edf4dc;
   padding: 50px 20px;
-  margin: 20px 5px;
 }
 
 .pain-point-cards {
   display: grid;
-  gap: 1.5rem;
+  gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
-  animation: fade-in linear;
-  animation-timeline: view(150px);
 }
 
 .card {
-  width: 325px;
-  height: 150px;
+  width: 300px;
+  height: 175px;
   text-wrap: wrap;
   background-color: #fdfcfa;
   text-align: left;
@@ -137,8 +134,12 @@ li a {
 }
 
 .pain-point-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
   margin-bottom: 35px;
   font-family: "Poppins", sans-serif;
+  font-size: 22px;
 }
 
 .card-header {
@@ -155,13 +156,70 @@ li a {
   color: #262626;
 }
 
-@keyframes fade-in {
-  from {
-    scale: 0.8;
-    opacity: 0;
-  }
-  to {
-    scale: 1;
-    opacity: 1;
-  }
+.profile-pictures {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.user-quotes-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  text-align: center;
+  gap: 16px;
+}
+
+.user-quotes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  text-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 225px;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+}
+
+.personal-quote-section {
+  padding: 0 15px;
+}
+
+.quote-header {
+  margin: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.quote-text {
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer-waitlist {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e2edcb;
+  padding: 26px;
+  margin-top: 30px;
+}
+
+.footer-waitlist button {
+  padding: 0 25px;
+  border: none;
+  background-color: #ffffff;
+}
+
+.footer {
+  text-align: center;
+  padding: 46px;
+  margin-top: 15px;
 }
