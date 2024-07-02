@@ -6,7 +6,7 @@
     <title>growbase</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/normalize.css" />
-    <script src="js/main.js"></script>
+    <script src="js/main.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -35,7 +35,12 @@
         </p>
       </section>
       <div class="waitlist">
-        <form action="#" class="waitlist-form">
+        <form
+          action="https://script.google.com/macros/s/AKfycbz2m_WO0VLYqnmlXOigeFzqv_5j7VN_eGIaH80rE3-TdOSSAv-_8b7pAVFnFIY3RE1H/exec"
+          method="POST"
+          class="waitlist-form"
+          id="joinForm"
+        >
           <h3 class="waitlist-header">Join the Waitlist!</h3>
           <div class="user-name">
             <label for="name">Name</label>
@@ -49,6 +54,12 @@
           </div>
           <button type="submit" class="submit">Submit</button>
         </form>
+        <div class="checkmark">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+            <circle cx="26" cy="26" r="25" fill="none" />
+            <path fill="none" d="M14 27l7 7 16-16" />
+          </svg>
+        </div>
       </div>
     </div>
     <section class="need-solution">
@@ -65,7 +76,85 @@
       </article>
     </section>
     <div class="pain-points">
-      <h3>Pain Points</h3>
+      <h3 class="pain-point-header">Pain Points</h3>
+      <div class="pain-point-cards">
+        <div class="card card-1">
+          <h4 class="card-header">Only retail sales limit growth</h4>
+          <p class="card-description">
+            Over 268 million Americans shop online annually and 56% prefer
+            shopping online.
+          </p>
+          <a href="#" class="card-link">Learn more</a>
+        </div>
+        <div class="card card-2">
+          <h4 class="card-header">Targeting a niche customer base is hard</h4>
+          <p class="card-description">
+            It can be extremely challenging finding your targeted customer for
+            niche products when selling in-person.
+          </p>
+          <a href="#" class="card-link">Learn more</a>
+        </div>
+        <div class="card card-3">
+          <h4 class="card-header">In-person sales are falling yearly</h4>
+          <p class="card-description">
+            Street sales are falling each year while online sales are rapidly
+            growing: 10.5% expected growth for 2024.
+          </p>
+          <a href="#" class="card-link">Learn more</a>
+        </div>
+        <div class="card card-4">
+          <h4 class="card-header">Hard to buy from far away</h4>
+          <p class="card-description">
+            Interested customers living far away are unable to purchase from
+            retail-only stores
+          </p>
+          <a href="#" class="card-link">Learn more</a>
+        </div>
+        <div class="card card-5">
+          <h4 class="card-header">SEO is very expensive</h4>
+          <p class="card-description">
+            To target your desired customers, businesses often have to pay
+            unaffordable amounts of money for SEO.
+          </p>
+          <a href="#" class="card-link">Learn more</a>
+        </div>
+        <div class="card card-6">
+          <h4 class="card-header">
+            Hard to reach millennials and GenZ customers
+          </h4>
+          <p class="card-description">
+            67% of millennials and 56% of GenZ customers prefer shopping online
+            compared to retail stores.
+          </p>
+          <a href="#" class="card-link">Learn more</a>
+        </div>
+      </div>
+    </div>
+    <div class="user-quotes">
+      <div class="user-quote-1">
+        <article>
+          <p>
+            It was very hard for me to reach out to interested customers living
+            extremeley far away from our stores. Luckily, growbase helped me
+            create an online store where users all around the world can purchase
+            my products!
+          </p>
+          <h5>Jacquline Wright</h5>
+          <p>Customer</p>
+        </article>
+      </div>
+      <div class="user-quote-2">
+        <article>
+          <p>
+            Online stores and SEO advertisements were extremely expensive and
+            unaffordable for our business. However, growbase allowed use to
+            created create an online store and access SEO tools for really
+            affordable prices!
+          </p>
+          <h5>Mark Brown</h5>
+          <p>Customer</p>
+        </article>
+      </div>
     </div>
   </body>
 </html>

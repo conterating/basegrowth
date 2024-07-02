@@ -41,6 +41,7 @@ li a {
   align-items: center;
   width: 100%;
   background-color: #e2edcb;
+  padding: 28px 0;
 }
 
 .hero-content {
@@ -63,7 +64,7 @@ li a {
 .waitlist {
   background-color: #d2e3d0;
   padding: 36px;
-  margin-right: 32px;
+  margin-right: 10%;
 }
 
 .waitlist-form {
@@ -92,6 +93,7 @@ li a {
   gap: 16px;
   text-align: center;
   font-family: "Open Sans", sans-serif;
+  padding: 26px;
 }
 
 .solution-header {
@@ -101,4 +103,65 @@ li a {
 .solution-paragraph {
   color: #606060;
   line-height: 25px;
+}
+
+.pain-points {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  background-color: #edf4dc;
+  padding: 50px 20px;
+  margin: 20px 5px;
+}
+
+.pain-point-cards {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  animation: fade-in linear;
+  animation-timeline: view(150px);
+}
+
+.card {
+  width: 325px;
+  height: 150px;
+  text-wrap: wrap;
+  background-color: #fdfcfa;
+  text-align: left;
+  border-radius: 15px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+  text-align: left;
+}
+
+.pain-point-header {
+  margin-bottom: 35px;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-header {
+  font-family: "Poppins", sans-serif;
+  color: #262626;
+}
+
+.card-description {
+  color: #606060;
+}
+
+.card-link {
+  text-decoration: none;
+  color: #262626;
+}
+
+@keyframes fade-in {
+  from {
+    scale: 0.8;
+    opacity: 0;
+  }
+  to {
+    scale: 1;
+    opacity: 1;
+  }
 }
